@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Quote Freecodecamp</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--bootsrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootsrap.css">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <!--font awasome-->
+    <link rel="stylesheet" href="fa/css/font-awesome.css">
+    <link rel="stylesheet" href="fa/css/font-awasome.min.css">
+  </head>
+  <body class="bg">
+    <script src="js/script.js"></script>
+
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jak Euchre</a>
+        </div>
+    </nav>
+    </div>
+    <div class="jumbotron" style="background-color:#fff;">
+      <div class="container">
+        <div class="heading">
+          <h1>Random quote Generator</h1>
+          <h2>Project from <a href="https://www.freecodecamp.com" target="_blank">freecodecamp</a></h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-12 quotes">
+        <p id="quoteDisplay"></p>
+        </div>
+        <hr>
+      </div>
+        <div class="tombol">
+
+            <button type="button" class="btn btn-outline-danger" onclick="newQuotes()">Quotes</button>
+            <button type="button" class="btn btn-outline-danger" onclick="deleteQuotes()">Reset</button>
+            <a id="twitterid" style="text-decoration:none;" class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank" data-size="large"><i class="fa fa-twitter" aria-hidden="true"></i>  Tweet</a>
+
+        </div>
+      </div>
+
+  </body>
+
+</html>
